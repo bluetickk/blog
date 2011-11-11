@@ -45,7 +45,8 @@ body
 .blog
 {
 	box-shadow: 5px 5px 10px; #DBDBDC;
-	background-color: #FFFFFF:
+	background-color: #FFFFFF;
+	margin-bottom: 40px;
 }
 .posts
 {
@@ -90,5 +91,67 @@ body
 {
 	cursor: pointer;
 	background-color: #313233;
+}
+.footer
+{
+    color: #666666;
+    margin-bottom: 40px;
+    height: 170px;
+}
+.details
+{
+    width: 300px;
+    float: left;
+}
+.footer ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font: normal 11px/17px Verdana;
+}
+.footer li
+{
+    padding: 8px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #CCCCCC;
+}
+.footer li a
+{
+    text-decoration: none;
+    color: #666666;
+}
+.footer li a:hover
+{
+    text-decoration: underline;
+}
+.footer li .contact
+{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #999999;
+}
+.footer li .email_me
+{
+    background-position: 0px 2px;
+    background-image: url('../images/footer_contact.gif');
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+.footer li .advertise
+{
+    background-position: 0px 2px;
+    background-image: url('../images/footer_advertise.gif');
+    background-repeat: no-repeat;
+    margin-left: 22px;
+    padding-left: 22px;
+}
+.desc
+{
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+    text-align: right;
 }
 .clear { clear: both; }
