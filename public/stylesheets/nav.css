@@ -1,0 +1,91 @@
+.nav
+{
+    float: left;
+    width: 300px;
+}
+.nav ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul.work li
+{
+    width: 100%;
+    padding: 0 0 20px 0;
+    height: 27px;
+}
+.nav ul.social li
+{
+    width: 100%;
+    padding: 0 0 10px 0;
+    height: 27px;
+}
+.nav ul li a
+{
+    padding: 5px 8px 8px 0px;
+    text-decoration: none;
+    background-color: #47484B;
+    color: #FFFFFF;
+    float: right;
+    box-shadow: 0px 2px 4px #c5c5c6;
+    text-align: right;
+    width: 292px;
+}
+.nav ul li a.twitter
+{
+    background-color: #57D5FF;
+    width: 200px;
+    padding: 3px 8px 5px 0px;
+}
+.nav ul li a.twitter:hover
+{
+    -webkit-transition: width 0.5s ease;
+    width: 150px;
+    cursor: pointer;
+    background-color: #1CC7FF;
+}
+.nav ul li a.soundcloud
+{
+    background-color: #EE4B20;
+    width: 175px;
+    padding: 3px 8px 5px 0px;
+}
+.nav ul li a.soundcloud:hover
+{
+    -webkit-transition: width 0.5s ease;
+    width: 150px;
+    cursor: pointer;
+    background-color: #F37E61;
+}
+.nav ul li a:hover
+{
+    cursor: pointer;
+    background-color: #313233;
+}
+.nav ul li a.youtube
+{
+    background-color: #C61616;
+    width: 150px;
+    padding: 3px 8px 5px 0px;
+}
+.nav ul li a.youtube:hover
+{
+    -webkit-transition: width 0.5s ease;
+    width: 120px;
+    cursor: pointer;
+    background-color: #FF3333;
+}
+.nav ul li a.discogs
+{
+    background-color: #EBDA05;
+    width: 175px;
+    padding: 3px 8px 5px 0px;
+}
+.nav ul li a.discogs:hover
+{
+    -webkit-transition: width 0.5s ease;
+    width: 150px;
+    cursor: pointer;
+    background-color: #FCF05C;
+}

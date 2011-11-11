@@ -8,7 +8,53 @@
 </head>
 <body>
 
-        <%= yield %>
-
+	<div class="wrapper">
+	
+		<div class="middle">
+			<div class="slider">
+				
+			</div>
+			<div class="nav">
+				<ul class="work">
+                    <li><a href="">READ CLIENT TESTIMONIALS</a> </li>
+                </ul>
+                <ul class="social">
+                    <li><a href="http://twitter.com/#!/bluetickk" target="_blank" class="twitter">TWITTER</a>
+                    </li>
+                    <li><a href="http://soundcloud.com/bluetickk" target="_blank" class="soundcloud">SOUNDCLOUD</a>
+                    </li>
+                    <li><a href="https://www.youtube.com/bluetickk13/" target="_blank" class="youtube">YOUTUBE</a></li>
+                    <li><a href="http://www.discogs.com/user/Bluetickk" target="_blank" class="discogs">
+                        DISCOGS</a></li>
+                </ul>
+			</div>
+		</div>
+		
+		<div class="bottom">
+			<div class="left_col">
+				<div class="blog">
+					<div class="tab">
+						<h1>BLOG</h1>
+						<a href="">READ MORE BLOG ENTRIES</a>
+					</div>
+					<div class="posts">
+						<%= yield %>
+					</div>
+				</div>
+			</div>
+			<div class="right_col">
+				<div class="mixes">
+					<div class="tab">
+						<h1>LATEST MIX</h1>
+						<a href="">LISTEN TO MORE</a>
+					</div>
+					
+				</div>
+			</div>
+			<div class="clear">
+		</div>
+        
+    </div>
+    
 </body>
 </html>

@@ -1,0 +1,94 @@
+body
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #27282B;
+	margin: 30px 0px 30px 0px;
+	background-color: #ECECED
+}
+.wrapper
+{
+	margin: 0 auto;
+	width: 940px;
+}
+.middle
+{
+	
+}
+.slider
+{
+	float: left;
+	width: 640px;
+	height: 240px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 10px #DBDBDC;
+	margin-bottom: 40px;
+}
+.slider:hover
+{
+    box-shadow: 2px 2px 100px #57D5FF;
+}
+.bottom
+{
+	height: auto;
+}
+.left_col
+{
+	float: left;
+	width: 640px;
+}
+.right_col
+{
+	float: right;
+	width: 300px;
+}
+.blog
+{
+	box-shadow: 5px 5px 10px; #DBDBDC;
+	background-color: #FFFFFF:
+}
+.posts
+{
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+.mixes
+{
+	background-color: #FFFFFF;
+	width: 280px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+.tab
+{
+	padding: 0px;
+	text-decoration: none;
+	background-color: #6B6D72;
+	color: #FFFFFF;
+	height: 30px;
+}
+.tab h1
+{
+	margin: 0px;
+	font-size: small;
+	font-weight: normal;
+	padding: 7px 12px 8px 12px;
+	float: left;
+}
+.tab a
+{
+	padding: 7px 12px 8px 12px;
+	text-decoration: none;
+	background-color: #47484B;
+	color: #FFFFFF;
+	float: right;
+	text-align: left;
+	border-left-style: solid 1px #FFFFFF;
+}
+.tab a:hover
+{
+	cursor: pointer;
+	background-color: #313233;
+}
+.clear { clear: both; }
