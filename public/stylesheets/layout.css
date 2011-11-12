@@ -4,7 +4,7 @@ body
 	font-size: 12px;
 	color: #27282B;
 	margin: 30px 0px 30px 0px;
-	background-color: #ECECED
+	background-color: #ECECED;
 }
 .wrapper
 {
@@ -54,6 +54,14 @@ body
 	padding: 20px;
 }
 .mixes
+{
+	background-color: #FFFFFF;
+	width: 280px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+.twitter
 {
 	background-color: #FFFFFF;
 	width: 280px;
