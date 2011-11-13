@@ -1,7 +1,11 @@
 .post
 {
+	padding-top: 20px;
 	height: auto;
 	margin-bottom: 40px;
+	border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #DBDBDB;
 }
 .post_actions
 {
@@ -35,10 +39,7 @@
 .post_title
 {
 	font-family: 'Contrail One', cursive;
-	font-size: x-large;
-	border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #DBDBDB;
+	font-size: 40px;
     margin-bottom: 10px;
 	padding-bottom: 10px;
 }
