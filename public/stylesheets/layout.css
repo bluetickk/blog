@@ -81,7 +81,7 @@ body
 {
 	margin: 0px;
 	font-weight: normal;
-	padding: 7px 12px 8px 12px;
+	padding: 8px 12px 8px 12px;
 	float: left;
 }
 .tab a
@@ -92,7 +92,10 @@ body
 	color: #FFFFFF;
 	float: right;
 	text-align: left;
-	border-left-style: solid 1px #FFFFFF;
+	border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #FFFFFF;
+	height: 16px;
 }
 .tab a:hover
 {

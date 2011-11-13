@@ -1,0 +1,69 @@
+﻿.header
+{
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.behind
+{
+    width: 800px;
+}
+.behind_left
+{
+    width: 150px;
+    height: 150px;
+    background-color: #B94FFF;
+    float: left;
+}
+.behind_right
+{
+    width: 325px;
+    height: 150px;
+    float: left;
+}
+.behind_right_top
+{
+    width: 65px;
+    height: 10px;
+    float: left;
+}
+.behind_text
+{
+    width: 220px;
+    background-color: #000000;
+    z-index: 2;
+    margin-left: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: large;
+    font-style: italic;
+    left: -60px;
+    position: relative;
+    top: 20px;
+    padding-bottom: 10px;
+}
+#web_development
+{
+    width: 260px;
+    background-color: #6B6D72;
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#crate_digging
+{
+    width: 220px;
+    background-color: #47484B;
+    margin-left: 320px;
+    padding-top: 10px;
+}
+#web_development:hover
+{ 
+    background-color: #57D5FF;
+    cursor: pointer; 
+}
+#crate_digging:hover
+{
+    background-color: #EE4B20;
+    cursor: pointer;
+}
