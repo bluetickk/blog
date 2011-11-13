@@ -1,13 +1,22 @@
 <div>
 <% @posts.each do |post| %>
-  <div>
-    <div><%= post.name %></div>
-    <div><%= post.title %></div>
-    <div><%= post.content %></div>
-    <div><%= link_to 'Show', post %></div>
-    <div><%= link_to 'Edit', edit_post_path(post) %></div>
-    <div><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></div>
+  <div class="post">
+    <div class="post_left">
+	    <div class="post_title"><%= post.title %></div>
+        <div class="post_name"><%= post.name %></div>  
+    </div>
+    <div class="post_right">
+	  <div class="post_content"><%= post.content %></div>
+    </div>
+    <div>
+      <ul class="post_actions">
+        <li><%= link_to 'Show', post %></li>
+        <li><%= link_to 'Edit', edit_post_path(post) %></li>
+        <li><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></li>
+      </ul>
+    </div>
   </div>
+  <div class="clear"></div>
 <% end %>
 </div>
 

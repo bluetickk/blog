@@ -1,0 +1,46 @@
+.post
+{
+	height: auto;
+	margin-bottom: 40px;
+}
+.post_actions
+{
+	list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    width: 600px;
+    height: 31px;
+    clear: both;
+}
+.post_actions li
+{
+	padding: 8px;
+	margin-right: 20px;
+	float: left;
+}
+.post_left
+{
+	float: left;
+	width: 250px;
+}
+.post_right
+{
+	float: left;
+	width: 330px;
+	margin-left: 20px;
+}
+.post_name
+{
+}
+.post_title
+{
+	font-size: x-large;
+	border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #DBDBDB;
+    margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.post_content
+{
+}
