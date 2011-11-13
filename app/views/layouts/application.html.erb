@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <title>COREY BURMEISTER | WEB DEVELOPER & DJ</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 <body>
-
 	<div class="wrapper">
-	
 		<div class="middle">
 			<div class="slider">
 			</div>
 			<div class="nav">
 				<ul class="work">
-                    <li><a href="">READ CLIENT TESTIMONIALS</a> </li>
+                	<li><a href="">READ CLIENT TESTIMONIALS</a> </li>
                 </ul>
                 <ul class="social">
-                    <li><a href="http://twitter.com/#!/bluetickk" target="_blank" class="twitter">TWITTER</a></li>
-                    <li><a href="http://soundcloud.com/bluetickk" target="_blank" class="soundcloud">SOUNDCLOUD</a></li>
-                    <li><a href="https://www.youtube.com/bluetickk13/" target="_blank" class="youtube">YOUTUBE</a></li>
-                    <li><a href="http://www.discogs.com/user/Bluetickk" target="_blank" class="discogs">DISCOGS</a></li>
+            		<li><a href="http://twitter.com/#!/bluetickk" target="_blank" class="twitter">TWITTER</a></li>
+                  	<li><a href="http://soundcloud.com/bluetickk" target="_blank" class="soundcloud">SOUNDCLOUD</a></li>
+                  	<li><a href="https://www.youtube.com/bluetickk13/" target="_blank" class="youtube">YOUTUBE</a></li>
+                  	<li><a href="http://www.discogs.com/user/Bluetickk" target="_blank" class="discogs">DISCOGS</a></li>
                 </ul>
 			</div>
 		</div>
-		
 		<div class="bottom">
 			<div class="left_col">
 				<div class="blog">
 					<div class="tab">
-						<h1>BLOG</h1>
+						<span>BLOG</span>
 						<a href="">READ MORE BLOG ENTRIES</a>
 					</div>
 					<div class="posts">
-					
 						<%= yield %>
-						
 					</div>
 				</div>
 			</div>
 			<div class="right_col">
 				<div class="mixes">
 					<div class="tab">
-						<h1>LATEST MIX</h1>
+						<span>LATEST MIX</span>
 						<a href="">LISTEN TO MORE</a>
 					</div>
-					
 				</div>
-				<div class="twitter">
+				<div class="twitter_feed">
 					<div class="tab">
-						<h1>LATEST TWEETS</h1>
+						<span>LATEST TWEETS</span>
 						<a href="">READ MORE</a>
 					</div>
-					
 				</div>
 			</div>
 			<div class="clear"></div>
 		</div>
-		
 		<div class="footer">
         	<div class="details">
         		<ul>
@@ -69,17 +62,15 @@
                     <li class="contact"><a href="" class="email_me">Email Me</a><a href="" class="advertise" target="_blank">Advertise</a></li>
                 	<li>© 2011 Corey Burmeister. All Rights Reserved. </li>
                 </ul>
-                </div>
-                <div class="desc">
+            </div>
+            <div class="desc">
                 	<ul>
                 		<li>Corey Burmeister is a web developer & dj from Chicago. Delivering elegant, user-centered
                 		custom web applications & websites by day, and playing records at private chic parties by night. </li>
                     </ul>
                 </div>
         	</div>
-		</div>
-        
-    </div>
-    
+        </div>
+	</div>
 </body>
 </html>

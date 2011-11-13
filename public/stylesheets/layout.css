@@ -1,6 +1,6 @@
 body
 {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	font-size: 12px;
 	color: #27282B;
 	margin: 30px 0px 30px 0px;
@@ -61,7 +61,7 @@ body
 	margin-bottom: 20px;
 	float: left;
 }
-.twitter
+.twitter_feed
 {
 	background-color: #FFFFFF;
 	width: 280px;
@@ -77,10 +77,9 @@ body
 	color: #FFFFFF;
 	height: 30px;
 }
-.tab h1
+.tab span
 {
 	margin: 0px;
-	font-size: small;
 	font-weight: normal;
 	padding: 7px 12px 8px 12px;
 	float: left;
