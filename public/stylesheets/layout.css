@@ -13,7 +13,8 @@ body
 }
 .middle
 {
-	
+	height: 240px;
+	margin-bottom: 40px;
 }
 .slider
 {
@@ -22,7 +23,6 @@ body
 	height: 240px;
 	background-color: #FFFFFF;
 	box-shadow: 5px 5px 10px #DBDBDC;
-	margin-bottom: 40px;
 }
 .slider:hover
 {
@@ -30,7 +30,8 @@ body
 }
 .bottom
 {
-	height: auto;
+	display: block;
+	margin-bottom: 40px;
 }
 .left_col
 {
@@ -39,14 +40,13 @@ body
 }
 .right_col
 {
-	float: right;
+	float: left;
 	width: 300px;
 }
 .blog
 {
 	box-shadow: 5px 5px 10px; #DBDBDC;
 	background-color: #FFFFFF;
-	margin-bottom: 40px;
 }
 .posts
 {
@@ -59,9 +59,56 @@ body
 	width: 280px;
 	margin-left: 20px;
 	margin-bottom: 20px;
-	float: left;
+	height: auto;
+	display: block:
 }
 .twitter_feed
+{
+	background-color: #FFFFFF;
+	width: 280px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: block:
+}
+.twitter_feed ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+.twitter_feed ul span
+{
+	padding: 0px;
+}
+#twitter_update_list
+{
+	display: block;
+}
+#twitter_update_list li
+{
+	padding-top: 10px;
+}
+#twitter_update_list li a
+{
+    color: #BE5DFF;
+    text-decoration: none;
+    padding: 0px;
+    background-color: inherit;
+    float: none;
+    border-style: none;
+}
+#twitter_container
+{
+    height: auto !important;
+    color: #000000;
+    clear: left;
+    display: block;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tags
 {
 	background-color: #FFFFFF;
 	width: 280px;

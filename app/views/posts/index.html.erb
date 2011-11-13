@@ -1,24 +1,15 @@
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Title</th>
-    <th>Content</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
+<div>
 <% @posts.each do |post| %>
-  <tr>
-    <td><%= post.name %></td>
-    <td><%= post.title %></td>
-    <td><%= post.content %></td>
-    <td><%= link_to 'Show', post %></td>
-    <td><%= link_to 'Edit', edit_post_path(post) %></td>
-    <td><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+  <div>
+    <div><%= post.name %></div>
+    <div><%= post.title %></div>
+    <div><%= post.content %></div>
+    <div><%= link_to 'Show', post %></div>
+    <div><%= link_to 'Edit', edit_post_path(post) %></div>
+    <div><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></div>
+  </div>
 <% end %>
-</table>
+</div>
 
 <br />
 
