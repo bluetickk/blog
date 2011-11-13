@@ -75,7 +75,7 @@ body
 	text-decoration: none;
 	background-color: #6B6D72;
 	color: #FFFFFF;
-	height: 30px;
+	height: auto;
 }
 .tab span
 {
