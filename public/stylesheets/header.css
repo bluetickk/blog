@@ -2,6 +2,7 @@
 {
     height: 150px;
     margin-bottom: 40px;
+    font-family: 'Contrail One', cursive;
 }
 
 .behind
@@ -35,8 +36,7 @@
     margin-left: 0px;
     text-align: center;
     color: #FFFFFF;
-    font-size: large;
-    font-style: italic;
+    font-size: x-large;
     left: -60px;
     position: relative;
     top: 20px;
@@ -52,9 +52,9 @@
 }
 #crate_digging
 {
-    width: 220px;
+    width: 130px;
     background-color: #47484B;
-    margin-left: 320px;
+    margin-left: 380px;
     padding-top: 10px;
 }
 #web_development:hover

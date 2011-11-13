@@ -1,7 +1,7 @@
 Blog::Application.routes.draw do
   get "home/index"
 
-  get "home/inde"
+  get "home/index"
 
   resources :posts do
     resources :comments

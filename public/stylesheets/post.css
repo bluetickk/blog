@@ -46,3 +46,12 @@
 .post_content
 {
 }
+.post_tags
+{
+	margin-top: 10px;
+	font-style: italic;
+	color: #BE5DFF;
+}
+.post_comments
+{
+}
